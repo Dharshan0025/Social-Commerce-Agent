@@ -1,0 +1,287 @@
+{
+  "whatsapp_text_message": {
+    "entry": [
+      {
+        "id": "ENTRY_ID",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550559999",
+                "phone_number_id": "PHONE_NUMBER_ID"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "John Doe"
+                  },
+                  "wa_id": "919876543210"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "919876543210",
+                  "id": "wamid.HBgLMTkxOTg3NjU0MzIxMBUCABIYFjNBMDJCMDlCNjBCMUExMzAyQUIwNAA=",
+                  "timestamp": "1694876543",
+                  "text": {
+                    "body": "I want a blue shirt in medium size"
+                  },
+                  "type": "text"
+                }
+              ]
+            },
+            "field": "messages"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  
+  "whatsapp_image_message": {
+    "entry": [
+      {
+        "id": "ENTRY_ID",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550559999",
+                "phone_number_id": "PHONE_NUMBER_ID"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Jane Smith"
+                  },
+                  "wa_id": "919876543211"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "919876543211",
+                  "id": "wamid.HBgLMTkxOTg3NjU0MzIxMRUCABIYFjNBMDJCMDlCNjBCMUExMzAyQUIwNQA=",
+                  "timestamp": "1694876544",
+                  "image": {
+                    "caption": "Is this available?",
+                    "mime_type": "image/jpeg",
+                    "sha256": "IMAGE_SHA256",
+                    "id": "IMAGE_ID"
+                  },
+                  "type": "image"
+                }
+              ]
+            },
+            "field": "messages"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  
+  "whatsapp_audio_message": {
+    "entry": [
+      {
+        "id": "ENTRY_ID",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550559999",
+                "phone_number_id": "PHONE_NUMBER_ID"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Tamil User"
+                  },
+                  "wa_id": "919876543212"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "919876543212",
+                  "id": "wamid.HBgLMTkxOTg3NjU0MzIxMhUCABIYFjNBMDJCMDlCNjBCMUExMzAyQUIwNgA=",
+                  "timestamp": "1694876545",
+                  "audio": {
+                    "mime_type": "audio/ogg; codecs=opus",
+                    "sha256": "AUDIO_SHA256",
+                    "id": "AUDIO_ID",
+                    "voice": true
+                  },
+                  "type": "audio"
+                }
+              ]
+            },
+            "field": "messages"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  
+  "whatsapp_vendor_code_message": {
+    "entry": [
+      {
+        "id": "ENTRY_ID",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550559999",
+                "phone_number_id": "PHONE_NUMBER_ID"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Customer"
+                  },
+                  "wa_id": "919876543213"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "919876543213",
+                  "id": "wamid.HBgLMTkxOTg3NjU0MzIxMxUCABIYFjNBMDJCMDlCNjBCMUExMzAyQUIwNwA=",
+                  "timestamp": "1694876546",
+                  "text": {
+                    "body": "VS001 buy pannanum"
+                  },
+                  "type": "text"
+                }
+              ]
+            },
+            "field": "messages"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  
+  "whatsapp_tamil_message": {
+    "entry": [
+      {
+        "id": "ENTRY_ID",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550559999",
+                "phone_number_id": "PHONE_NUMBER_ID"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Tamil Customer"
+                  },
+                  "wa_id": "919876543214"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "919876543214",
+                  "id": "wamid.HBgLMTkxOTg3NjU0MzIxNBUCABIYFjNBMDJCMDlCNjBCMUExMzAyQUIwOAA=",
+                  "timestamp": "1694876547",
+                  "text": {
+                    "body": "நீல நிற சட்டை வேணும் medium size"
+                  },
+                  "type": "text"
+                }
+              ]
+            },
+            "field": "messages"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  
+  "payment_success_webhook": {
+    "event": "payment.success",
+    "payment_id": "pay_MNop1234567890",
+    "order_id": "order_ABC123",
+    "amount": 59900,
+    "currency": "INR",
+    "status": "captured",
+    "method": "upi",
+    "customer": {
+      "phone": "919876543210",
+      "email": "customer@example.com"
+    },
+    "created_at": 1694876548,
+    "notes": {
+      "vendor_code": "VS001",
+      "customer_phone": "919876543210"
+    }
+  },
+  
+  "payment_failed_webhook": {
+    "event": "payment.failed",
+    "payment_id": "pay_MNop1234567891",
+    "order_id": "order_ABC124",
+    "amount": 59900,
+    "currency": "INR",
+    "status": "failed",
+    "method": "card",
+    "error_code": "BAD_REQUEST_ERROR",
+    "error_description": "Payment failed due to insufficient funds",
+    "customer": {
+      "phone": "919876543210",
+      "email": "customer@example.com"
+    },
+    "created_at": 1694876549,
+    "notes": {
+      "vendor_code": "VS001",
+      "customer_phone": "919876543210"
+    }
+  },
+  
+  "address_collection_message": {
+    "entry": [
+      {
+        "id": "ENTRY_ID",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550559999",
+                "phone_number_id": "PHONE_NUMBER_ID"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "Customer"
+                  },
+                  "wa_id": "919876543210"
+                }
+              ],
+              "messages": [
+                {
+                  "from": "919876543210",
+                  "id": "wamid.HBgLMTkxOTg3NjU0MzIxMBUCABIYFjNBMDJCMDlCNjBCMUExMzAyQUIxMAA=",
+                  "timestamp": "1694876550",
+                  "text": {
+                    "body": "123 Main Street, Bangalore, Karnataka 560001"
+                  },
+                  "type": "text"
+                }
+              ]
+            },
+            "field": "messages"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  }
+}
